@@ -1,2 +1,25 @@
-# log-analyzer
-Simple Python log analyzer for detecting suspicious activity in server logs
+# Log Analyzer
+
+Simple Python log analyzer for detecting suspicious login attempts in server logs.
+
+## Overview
+
+This project demonstrates a basic security analysis technique where log files are analyzed to detect suspicious activity such as repeated failed login attempts from the same IP address.
+
+The script scans a log file and identifies IP addresses with multiple failed login attempts.
+
+## Technologies
+
+- Python
+- Log analysis
+- Basic security monitoring concepts
+
+## Files
+
+log_analyzer.py  
+Python script that analyzes log files for suspicious activity.
+
+sample_log.txt  
+Example log file used to test the analyzer.
+
+## Example Output
