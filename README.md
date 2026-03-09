@@ -23,3 +23,17 @@ sample_log.txt
 Example log file used to test the analyzer.
 
 ## Example Output
+Suspicious activity detected:
+
+192.168.1.10 -> 3 failed login attempts
+192.168.1.22 -> 1 failed login attempts
+
+## Why this project
+
+Understanding how to analyze logs is an important part of cybersecurity and SOC (Security Operations Center) work.  
+This project demonstrates a simple approach to detecting suspicious authentication activity.
+
+## Author
+
+Guled Abdulgadir Mohamed  
+Cybersecurity Student – Kristiania University College
