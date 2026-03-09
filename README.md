@@ -20,7 +20,7 @@ The script scans a log file and identifies IP addresses with multiple failed log
 - Python
 - Log analysis
 - Basic SOC detection concepts
-
+  
 ## Files
 
 `log_analyzer.py`  
