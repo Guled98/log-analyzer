@@ -23,21 +23,23 @@ The script scans a log file and identifies IP addresses with multiple failed log
 
 ## Files
 
-log_analyzer.py  
+`log_analyzer.py`  
 Python script that analyzes log files.
 
-sample_log.txt  
+`sample_log.txt`  
 Example log file for testing.
 
 ## How to run
 
-Clone the repository or download it.
+Download or clone the repository, then run:
 
-Run the script:
+```bash
 python log_analyzer.py
-
+```
 
 ## Example Output
+
+```text
 === Suspicious Activity Report ===
 
 192.168.1.10 -> 3 failed login attempts
@@ -46,6 +48,7 @@ ALERT: Possible brute-force attack from 192.168.1.10
 192.168.1.22 -> 1 failed login attempts
 
 Top attacker IP: 192.168.1.10 (3 failed attempts)
+```
 
 ## Author
 
