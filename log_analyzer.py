@@ -18,6 +18,7 @@ else:
 
     for ip, attempts in suspicious_ips.items():
         print(f"{ip} -> {attempts} failed login attempts")
+
         if attempts >= 3:
             print(f"ALERT: Possible brute-force attack from {ip}\n")
 
