@@ -8,30 +8,44 @@ This project demonstrates a basic security analysis technique where log files ar
 
 The script scans a log file and identifies IP addresses with multiple failed login attempts.
 
+## Features
+
+- Detects failed login attempts
+- Counts suspicious IP activity
+- Alerts when brute-force behaviour is detected
+- Shows top attacker IP
+
 ## Technologies
 
 - Python
 - Log analysis
-- Basic security monitoring concepts
+- Basic SOC detection concepts
 
 ## Files
 
 log_analyzer.py  
-Python script that analyzes log files for suspicious activity.
+Python script that analyzes log files.
 
 sample_log.txt  
-Example log file used to test the analyzer.
+Example log file for testing.
+
+## How to run
+
+Clone the repository or download it.
+
+Run the script:
+python log_analyzer.py
+
 
 ## Example Output
-Suspicious activity detected:
+=== Suspicious Activity Report ===
 
 192.168.1.10 -> 3 failed login attempts
+ALERT: Possible brute-force attack from 192.168.1.10
+
 192.168.1.22 -> 1 failed login attempts
 
-## Why this project
-
-Understanding how to analyze logs is an important part of cybersecurity and SOC (Security Operations Center) work.  
-This project demonstrates a simple approach to detecting suspicious authentication activity.
+Top attacker IP: 192.168.1.10 (3 failed attempts)
 
 ## Author
 
